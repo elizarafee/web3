@@ -1,3 +1,67 @@
 body {
     background-color: aqua;
 }
+
+.container {
+    font-size: 40px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: aquamarine;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.first-header {
+    background-color:teal;
+    flex-grow: 1;
+}
+
+.second-header {
+    background-color:indigo;
+    flex-grow: 1;
+}
+
+.third-header {
+    background-color:palevioletred;
+    flex-grow: 1;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.flex-nav {
+    background-color:saddlebrown;
+    flex-grow: 10;
+}
+
+.flex-article {
+    background-color: red;
+    flex-grow: 5;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-footer {
+    background-color: hotpink;
+    flex-grow: 1;
+}
+
+
+.second-footer {
+    background-color: yellow;
+    flex-grow: 1;
+}
